@@ -1,2 +1,11 @@
 image:
   file: .gitpod.Dockerfile
+
+github:
+  prebuilds:
+    # enable for the default branch (defaults to true)
+    master: true
+
+tasks:
+  - name: Terminal 1
+    init: sbt

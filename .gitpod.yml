@@ -8,4 +8,4 @@ github:
 
 tasks:
   - name: Terminal 1
-    init: sbt
+    init: sbt compile
